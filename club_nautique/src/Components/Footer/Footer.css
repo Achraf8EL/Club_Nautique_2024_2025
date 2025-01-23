@@ -1,0 +1,22 @@
+/* Footer.css */
+
+/* Style général */
+.footer {
+    background-color: #004aad; /* Bleu foncé */
+    color: white; /* Texte en blanc */
+    text-align: center; /* Centrer le texte */
+    padding: 20px 0; /* Espacement en haut et en bas */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Ombre subtile au-dessus */
+  }
+  
+  /* Informations complémentaires */
+  .footer-info {
+    margin-top: 10px; /* Espace au-dessus des informations */
+  }
+  
+  .footer-info p {
+    margin: 5px 0; /* Espacement entre les lignes */
+    font-size: 0.9rem; /* Taille légèrement réduite */
+    color: #d1e7ff; /* Bleu clair pour le texte */
+  }
+  

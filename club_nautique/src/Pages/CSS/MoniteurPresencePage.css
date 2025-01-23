@@ -1,0 +1,55 @@
+.presence-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .presence-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .presence-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .presence-container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .presence-container button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .presence-container button:first-of-type {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .presence-container button:first-of-type:hover {
+    background-color: #218838;
+  }
+  
+  .presence-container button:last-of-type {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .presence-container button:last-of-type:hover {
+    background-color: #c82333;
+  }
+  

@@ -1,0 +1,87 @@
+/* Conteneur principal */
+.validation-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Titre principal */
+  .validation-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #343a40;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Liste des réservations */
+  .reservation-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Élément de la liste */
+  .reservation-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Informations de réservation */
+  .reservation-info {
+    flex: 1;
+  }
+  
+  .reservation-info p {
+    margin: 5px 0;
+    color: #495057;
+  }
+  
+  /* Boutons */
+  .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button-group button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Bouton Valider */
+  .button-group .validate-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .button-group .validate-button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+  }
+  
+  /* Bouton Annuler */
+  .button-group .cancel-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .button-group .cancel-button:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+  }
+  

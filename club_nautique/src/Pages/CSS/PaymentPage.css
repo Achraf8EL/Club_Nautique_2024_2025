@@ -1,0 +1,150 @@
+.payment-page {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .payment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .pay-button {
+    padding: 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .pay-button:hover {
+    background-color: #218838;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  /* Container */
+.payment-page {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Title */
+  .payment-page h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form */
+  .payment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Form Group */
+  .form-group {
+    text-align: left;
+  }
+  
+  /* Labels */
+  label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  /* Inputs */
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    box-sizing: border-box;
+  }
+  
+  /* Input Focus */
+  input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Button */
+  .pay-button {
+    padding: 12px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Button Hover */
+  .pay-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .payment-page {
+      padding: 15px;
+    }
+  
+    .pay-button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    input {
+      font-size: 14px;
+    }
+  
+    label {
+      font-size: 12px;
+    }
+  }
+  

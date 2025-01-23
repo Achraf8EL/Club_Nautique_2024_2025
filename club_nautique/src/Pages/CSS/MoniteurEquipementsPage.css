@@ -1,0 +1,36 @@
+.equipements-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .equipements-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .equipements-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .equipements-container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .equipements-container select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  

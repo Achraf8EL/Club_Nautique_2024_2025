@@ -1,0 +1,63 @@
+/* Grid Layout for Sections */
+.sections-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Section Card Style */
+  .section-card {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .section-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Background Images for Each Section */
+  .section-card.cours {
+    background: url('https://source.unsplash.com/300x200/?sailing') center/cover no-repeat;
+  }
+  
+  .section-card.locations {
+    background: url('https://source.unsplash.com/300x200/?boat') center/cover no-repeat;
+  }
+  
+  .section-card.inscription {
+    background: url('https://source.unsplash.com/300x200/?beach') center/cover no-repeat;
+  }
+  
+  .section-card.contact {
+    background: url('https://source.unsplash.com/300x200/?contact') center/cover no-repeat;
+  }
+  
+  /* Overlay Effect */
+  .section-card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .section-card h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    z-index: 1;
+  }
+  

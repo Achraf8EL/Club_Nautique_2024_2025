@@ -1,0 +1,59 @@
+.dashboard-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .dashboard-container h1 {
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .dashboard-card {
+    padding: 20px;
+    border: 1px solid #007bff;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    background-color: #f1f8ff;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .dashboard-card:hover {
+    background-color: #007bff;
+    color: white;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+  }
+  .dashboard-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .links-container {
+    margin-top: 20px;
+  }
+  
+  .dashboard-link {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .dashboard-link:hover {
+    background-color: #0056b3;
+  }
+  

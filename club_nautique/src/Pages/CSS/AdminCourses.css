@@ -1,0 +1,128 @@
+.admin-courses {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .course-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .course-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-card h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .course-card p {
+    margin: 5px 0;
+  }
+  
+  .course-card button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .course-card button:hover {
+    background-color: #218838;
+  }
+  
+  .course-card button:last-child {
+    background-color: #dc3545;
+  }
+  
+  .course-card button:last-child:hover {
+    background-color: #c82333;
+  }
+  .admin-courses {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .add-course-form {
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .add-course-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .add-course-form input,
+  .add-course-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .course-list {
+    margin-top: 20px;
+  }
+  
+  .course-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }
+  
+  .course-card h3 {
+    margin-bottom: 10px;
+  }
+  .admin-locations {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .location-list {
+    margin-top: 20px;
+  }
+  
+  .location-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }
+  
+  .location-card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .location-card button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .location-card button:hover {
+    background-color: #a71d2a;
+  }
+  

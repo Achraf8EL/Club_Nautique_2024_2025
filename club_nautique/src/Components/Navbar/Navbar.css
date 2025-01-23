@@ -1,0 +1,43 @@
+/* Navbar.css */
+
+/* Couleur de fond */
+.navbar {
+    background-color: #004aad; /* Bleu foncé */
+    color: white; /* Texte en blanc */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+  }
+  
+  /* Texte du logo */
+  .navbar-logo {
+    font-size: 1.5rem; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+  }
+  
+  /* Liens du menu */
+  .navbar-menu {
+    display: flex;
+    gap: 1.5rem; /* Espacement entre les éléments */
+  }
+  
+  .navbar-menu a {
+    text-decoration: none; /* Supprime la sous-ligne */
+    color: white; /* Couleur de base des liens */
+    transition: color 0.3s ease; /* Transition douce sur les couleurs */
+  }
+  
+  .navbar-menu a:hover {
+    color: #66b2ff; /* Couleur plus claire au survol */
+  }
+  
+  /* Adaptatif */
+  @media (max-width: 768px) {
+    .navbar-menu {
+      flex-direction: column; /* Menu vertical pour les petits écrans */
+      gap: 1rem; /* Espacement réduit */
+    }
+  
+    .navbar {
+      padding: 1rem; /* Ajout d'espacement */
+    }
+  }
+  

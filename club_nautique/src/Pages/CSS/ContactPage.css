@@ -1,0 +1,127 @@
+.contact-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact-page h1 {
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  .contact-page form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-page label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: bold;
+  }
+  
+  .contact-page input,
+  .contact-page textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-page button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-page button:hover {
+    background-color: #0056b3;
+  }
+  
+  .submission-message {
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+  }
+  .contact-page {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-page h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .club-info {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .club-info p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .club-info strong {
+    color: #333;
+  }
+  
+  .club-description {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .club-description p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  .map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .map-container iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 350px;
+    border: 0;
+    border-radius: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-page {
+      padding: 15px;
+    }
+  
+    .map-container iframe {
+      height: 300px;
+    }
+  }
+  

@@ -1,0 +1,89 @@
+/* Home.css */
+
+/* Styles généraux pour la page */
+.home-container {
+    background-color: #f0f8ff; /* Couleur de fond bleu clair */
+    color: #333; /* Couleur du texte */
+    min-height: 100vh; /* Prend toute la hauteur de l'écran */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Titre principal */
+  .home-title {
+    font-size: 2.5rem; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+    margin-bottom: 20px; /* Espace en bas */
+    color: #004aad; /* Bleu foncé */
+  }
+  
+  /* Paragraphe principal */
+  .home-description {
+    font-size: 1.2rem; /* Taille du texte */
+    text-align: center; /* Texte centré */
+    line-height: 1.5; /* Hauteur de ligne */
+    margin-bottom: 30px; /* Espace en bas */
+    max-width: 600px; /* Largeur maximale */
+  }
+  
+  /* Bouton principal */
+  .home-button {
+    background-color: #004aad; /* Couleur de fond bleu */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement interne */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 1rem; /* Taille du texte */
+    cursor: pointer; /* Curseur en mode clic */
+    transition: background-color 0.3s ease; /* Transition douce */
+  }
+  
+  .home-button:hover {
+    background-color: #0066cc; /* Couleur de fond plus claire au survol */
+  }
+  
+  /* Sections supplémentaires */
+  .home-section {
+    margin-top: 40px; /* Espace en haut */
+    text-align: center; /* Centrer le texte */
+  }
+  
+  .home-section-title {
+    font-size: 1.8rem; /* Taille du texte */
+    margin-bottom: 15px; /* Espace en bas */
+    color: #333; /* Couleur du texte */
+  }
+  
+  .home-section-content {
+    font-size: 1rem; /* Taille du texte */
+    line-height: 1.5; /* Hauteur de ligne */
+    color: #555; /* Gris */
+  }
+  /* Home.css */
+
+/* Bannière principale */
+.home-banner {
+     /* Ajoutez une image de fond si nécessaire */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Animation hover pour les services */
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Animation pour les témoignages */
+  .testimonial-card {
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .testimonial-card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  

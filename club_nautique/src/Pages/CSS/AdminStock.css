@@ -1,0 +1,86 @@
+.admin-stock {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .equipment-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .equipment-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .equipment-card h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .equipment-card p {
+    margin: 5px 0;
+  }
+  
+  .equipment-card button {
+    background-color: #ffc107;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .equipment-card button:hover {
+    background-color: #e0a800;
+  }
+  .admin-stock {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .add-equipment-form {
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .add-equipment-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .add-equipment-form input,
+  .add-equipment-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .equipment-list {
+    margin-top: 20px;
+  }
+  
+  .equipment-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }
+  
+  .equipment-card h3 {
+    margin-bottom: 10px;
+  }
+  

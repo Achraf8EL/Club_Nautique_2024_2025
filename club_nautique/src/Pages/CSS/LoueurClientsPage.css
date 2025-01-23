@@ -1,0 +1,23 @@
+.clients-container {
+    padding: 20px;
+  }
+  
+  .clients-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .clients-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .clients-container li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  

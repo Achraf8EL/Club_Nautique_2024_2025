@@ -1,0 +1,35 @@
+.options-page {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .options-page h1 {
+    color: #007BFF;
+  }
+  
+  .options-page p {
+    margin: 20px 0;
+    font-size: 18px;
+  }
+  
+  .options-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .options-buttons button {
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .options-buttons button:hover {
+    background-color: #0056b3;
+  }
+  

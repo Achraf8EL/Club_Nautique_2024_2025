@@ -1,0 +1,288 @@
+/* Reset */
+body, h1, h2, h3, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background: #0077b6;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1rem;
+}
+
+/* Links */
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+.container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Sections */
+.section {
+  margin-bottom: 2rem;
+}
+
+.section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #0077b6;
+}
+
+.section p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+  background: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+/* Footer */
+footer {
+  background: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-contact {
+  margin-bottom: 1rem;
+}
+
+.footer-contact h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-contact p {
+  font-size: 1rem;
+  margin: 0.2rem 0;
+}
+
+.footer-contact a {
+  color: #ffdd57;
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  text-decoration: underline;
+}
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Signup Page Styling */
+.signup-page {
+  width: 100%;
+  max-width: 400px;
+  margin: 2rem auto;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-page h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #0077b6;
+  margin-bottom: 1.5rem;
+}
+
+.signup-page form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.signup-page label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.signup-page input,
+.signup-page select {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.signup-page input:focus,
+.signup-page select:focus {
+  border-color: #0077b6;
+}
+
+.signup-page button {
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  background-color: #0077b6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-page button:hover {
+  background-color: #005f99;
+}
+
+.signup-page .redirect {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.signup-page .redirect a {
+  color: #0077b6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-page .redirect a:hover {
+  text-decoration: underline;
+}
+
+/* Header Styling */
+header {
+  background-color: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+header p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* Footer Styling */
+footer {
+  background: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+.footer-contact h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-contact p {
+  margin: 0.5rem 0;
+}
+
+.footer-contact a {
+  color: #ffdd57;
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  text-decoration: underline;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  margin: 10px 0; /* Espacement autour du logo */
+  margin-left: -1400px;
+}
+
+.header-logo img {
+  width: 30px; /* Ajuste la largeur du logo */
+  height: auto; /* Garde les proportions */
+  border-radius: 8px; /* Optionnel : ajoute des bords arrondis */
+}
+.header-links {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Ajoute un espacement de 20px entre les éléments */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #0056b3;
+}
+
+.link-separator {
+  width: 1px;
+  height: 20px;
+  background-color: #ccc; /* Ligne fine entre les liens */
+}
